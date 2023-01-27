@@ -1,0 +1,37 @@
+body {
+  margin: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-shadow: initial;
+}
+
+@keyframes example {
+  from {background-color: #778da9;}
+  to {background-color: yellow;}
+}
+/* creo la animacion y especifico que hace */
+
+.avatar {
+  width: 150px;
+  border-radius: 5px;
+}
+
+.card {
+  width: 400px;
+  margin:0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  border-bottom: 6px solid #e0e1dd;
+  background-color: #778da9;
+  border-radius: 5px;
+  color:#0d1b2a;
+  animation-name: example;
+  animation-duration: 4s;
+}
+
+h3:hover {
+  text-align: right;
+}
+
+/* hover - cuando toque determinado elemento, realiza cierta accion*/
